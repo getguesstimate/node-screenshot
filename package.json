@@ -1,0 +1,26 @@
+{
+  "name": "node-screenshot",
+  "version": "1.0.0",
+  "description": "Node screenshotting service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getguesstimate/node-screenshot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getguesstimate/node-screenshot/issues"
+  },
+  "homepage": "https://github.com/getguesstimate/node-screenshot#readme",
+  "dependencies": {
+    "electron-screenshot-service": "^4.0.1",
+    "node-server-screenshot": "0.0.2",
+    "screenshot-promise": "^2.0.0",
+    "screenshot-stream": "^4.1.0",
+    "webshot": "^0.18.0"
+  }
+}
